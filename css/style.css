@@ -249,7 +249,7 @@ button {
      font-weight: 400;
      position: relative;
      letter-spacing: -0.5px;
-     color: #114c7d;
+     color: #CC83E8 ;
      border-left: solid #38c8a8 10px;
      padding-left: 15px;
 }
@@ -417,7 +417,8 @@ a.readmore_bt {
 }
 
 .sale_pro {
-     background: #f25252 !important;
+     background: #9B59B6;
+     !important;
 }
 
 .margin_top_50 {
@@ -462,7 +463,7 @@ ul.top_icon {
 
 ul.top_icon li {
      float: left;
-     color: #fff;
+     color: #A421D6;
      display: flex;
      flex-wrap: wrap;
      align-items: center;
@@ -474,16 +475,16 @@ ul.top_icon li:last-child {
 }
 
 ul.top_icon li a {
-     color: #fff;
+     color: #A421D6
 }
 
 .menu-area-main li:hover a,
-.menu-area-main li:focus a {
-     color: #ffff;
+.menu-area-main li:active a {
+     color: #A421D6
 }
 
 .menu-area-main li.active a {
-     color: #fff;
+     color: #A421D6;
 }
 
 .right_cart_section {
@@ -510,7 +511,7 @@ ul.top_icon li a {
      float: left;
      font-size: 17px;
      font-weight: 400;
-     color: #fff;
+     color: #A421D6;
      margin-right: 30px;
 }
 
@@ -653,6 +654,7 @@ ul.top_icon li a {
 
 .dropdown-bar .dropdown-link li.active {
      font-weight: bold;
+     color: #EBDEF0;
 }
 
 .right-dropdown-language .dropdown-link {
@@ -1311,7 +1313,7 @@ ul.top_icon li a {
      padding-left: 15px;
 }
 .dark_bg {
-     background: #114c7d;
+     background:#EBDEF0;;
 }
 
 /*--------------------------------------------------------------------- top banner area ---------------------------------------------------------------------*/
@@ -1525,7 +1527,7 @@ a.slide_banner:hover::before {
      left: -10px;
      top: 4px;
      z-index: -1;
-     background: #e12d4f;
+     background: #EBDEF0;;
      -webkit-transform: rotate(45deg);
      transform: rotate(45deg);
 }
@@ -1537,7 +1539,7 @@ a.slide_banner:hover::before {
      right: -10px;
      top: 4px;
      z-index: -1;
-     background: #e12d4f;
+     background: #EBDEF0;
      -webkit-transform: rotate(45deg);
      transform: rotate(45deg);
 }
@@ -1612,6 +1614,8 @@ font-weight: 500;
      line-height: 70px;
      padding-bottom: 10px;
      display: block;
+     justify-content: center;
+     align-items: center;
 }
 
 .banner-main .carousel-caption h1 {
@@ -1642,8 +1646,8 @@ border-radius: 30px;
 }
 
 .banner-main .carousel-caption .buynow:hover {
-     border: #ff0000 solid 1px;
-     background: #ff0000;
+     border: #EBDEF0 solid 1px;
+     background: #EBDEF0;
      color: #fff;
 }
 
@@ -1693,8 +1697,8 @@ font-size: 18px;
 } 
 
 ul.social_icon li a:hover {
-     background: #ff0000;
-border: solid #ff0000 1px;        
+     background: #EBDEF0;
+border: solid #EBDEF0 1px;        
 color: #fff;
 }
 /** end banner **/
@@ -1702,14 +1706,13 @@ color: #fff;
 /** about **/
 .about {
      padding-top: 90px ;
-     padding-bottom: 84px ;
-     background: url(../images/aboutbg.jpg);
+     padding-bottom: 70px ;
     background-position-x: 0%;
     background-position-y: 0%;
     background-repeat: repeat;
     background-size: auto;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 50% 50%;
     background-position: center center;
 }
 
@@ -1721,6 +1724,8 @@ color: #fff;
      text-align: 100px;
      padding-top: 100px;
      margin: 0 auto;
+     justify-content: center;
+     align-items: center;
 }
 .about .about_box h3 {
      font-weight: bold;
@@ -1729,6 +1734,9 @@ color: #fff;
      line-height: 32px;
      padding-bottom: 7px;
     display: block;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .about .about_box span {
@@ -1738,6 +1746,8 @@ color: #fff;
      color:#23242a; 
      padding-bottom: 10px;
     display: block;
+    justify-content: center;
+    align-items: center;
 }
 
 .about .about_box p {
@@ -1746,6 +1756,8 @@ color: #fff;
      color: #23242a;
      margin: 0 auto; /* Add this line */
      max-width: 50%; /* Add this line */
+     justify-content: center;
+     align-items: center;
 }
 
 .about_box_ span {
@@ -1843,7 +1855,7 @@ border-radius: 50px;
 /** brand **/
 .brand {
      padding-top: 60px;
-     border-top: #db0000 solid 6px;}
+     border-top: #9B59B6 solid 6px;}
 
 .brand-bg {
      background: #ebebeb;
@@ -1873,7 +1885,7 @@ border-radius: 50px;
      padding: 17px 0px 0px 0px;
 }
 .red {
-     color: #ff0000;
+     color: #EBDEF0;
 }
 
 .brand-bg .brand_box span {
@@ -1904,7 +1916,7 @@ margin-top: 40px
 }
 
 .read-more:hover {
-     background: #ff0000;
+     background: #EBDEF0;
 }
 
 /** end brand **/
@@ -2020,7 +2032,7 @@ ul.link li a {
      
 }
 ul.link li a:hover {
-     color: #ff0000;
+     color: #EBDEF0;
 }
 
 ul.location_icon {
@@ -2055,8 +2067,8 @@ font-size: 18px;
 } 
 
 ul.location_icon li a:hover {
-     background: #ff0000;
-border: solid #ff0000 1px;        
+     background: #EBDEF0;
+border: solid #EBDEF0 1px;        
 color: #fff;
 }
 
@@ -2080,7 +2092,7 @@ ul.location_icon span {
      color: #000;
 }
 .copyright a:hover {
-     color: #ff0000;
+     color: #EBDEF0;
 }
 .btn-primary.focus,
 .btn-primary:focus {
