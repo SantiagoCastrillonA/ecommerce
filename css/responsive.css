@@ -13,7 +13,7 @@
 
 /*------------------------------------------------------------------- 767px x 599px ---------------------------------------------------------------------*/
 
-@media only screen and (min-width: 599px) and (max-width: 767px) {
+@media only screen and (min-width: 430px) and (max-width: 932px) {
     .logo {
         text-align: center;
     }
@@ -177,7 +177,7 @@ ul.social_icon {display: none !important;}
     .last {display: none;}
     .location_icon_bottum {display: none;}
     .logo {padding-top: 7px;}
-    .mean-container .mean-bar {background: #000;}
+    .mean-container .mean-bar {background: none;}
     .mean-container .mean-bar {margin-left: 20px;}
     .banner-main .carousel-caption span {font-size: 25px; line-height: 19px;}
 .banner-main .carousel-caption h1 {font-size: 30px; line-height: 40px;}
@@ -206,14 +206,14 @@ font-size: 42px;
     .relative {left: 21%;}
     .mean-container .mean-bar {margin-bottom: -1px;}
     .location_icon_bottum {display: none;}
-    .header {background: inherit; padding-bottom: 0; padding-top: 30px;}
+    .header {background-image: url(/images/hea.png); background-repeat: no-repeat; padding-bottom: 0; padding-top: 30px;}
     .last {display: none;}
     .img-box {display: none;} 
 
 .logo {float: inherit; padding-bottom: 15px; text-align: center;}
 #myCarousel a.carousel-control-prev {width: 45px; height: 45px;}
 #myCarousel a.carousel-control-next {width: 45px; height: 45px;}
-.banner-main .carousel-item img {height: 290px;}
+.banner-main .carousel-item img {width: 100%;}
 .banner-main .carousel-caption span {font-size: 21px; line-height: 19px;}
 .banner-main .carousel-caption h1 {font-size: 20px; line-height: 40px;}
 .banner-main .carousel-caption p  {display: none;}

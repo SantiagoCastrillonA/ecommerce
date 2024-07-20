@@ -14,8 +14,9 @@ a.meanmenu-reveal {
      z-index: 999;
 }
 
+/* AQUI SE CAMBIA LA X  */
 .mean-container a.meanmenu-reveal {
-     color: #fff;
+     color: #ef2cf3;
      cursor: pointer;
      display: block;
      font-family: 'Roboto', sans-serif;
@@ -29,8 +30,9 @@ a.meanmenu-reveal {
      width: 26px;
 }
 
+/* En esta parte cambia el color de la hamburgesa */
 .mean-container a.meanmenu-reveal span {
-     background: #ffffff none repeat scroll 0 0;
+     background: #ec39e0 none repeat scroll 0 0;
      border-radius: 0;
      display: block;
      height: 4px;
